@@ -1,20 +1,17 @@
-import os
-import bethesda
 import unittest
+from flask import Flask
+from flask_testing import TestCase
+from bethesda import app
 
-class BethesdaTestCase(unittest.TestCase):
+class BethesdaTestCase(TestCase):
 
-    def setUp(self):
-        bethesda.app.testing = True
-        self.app = bethesda.app.test_client()
+    def create_app(self):
+        return app
 
-
-    def tearDown(self):
-        pass
 
     def test_home_page_returns_correct_html(self):
-        self.app.get('/')
-        self.assertTemplateUsed(response, 'home.html')
+        self.client.get('/')
+        self.assert_template_used('home.html')
 
 
 if __name__=="__main__":

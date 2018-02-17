@@ -13,6 +13,10 @@ class BethesdaTestCase(TestCase):
         self.client.get('/')
         self.assert_template_used('home.html')
 
+    def test_info_page_returns_correct_html(self):
+        self.client.get('/info')
+        self.assert_template_used('info.html')
+
 
 if __name__=="__main__":
     unittest.main()

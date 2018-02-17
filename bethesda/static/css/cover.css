@@ -102,17 +102,6 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
-
 /*
  * Cover
  */
@@ -148,6 +137,49 @@ body {
      color: #fff;
      background-color: darkslateblue;
  }
+
+
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+@media screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  .cover {
+    padding: 0 1.5rem;
+    margin-top: 0%;
+  }
+  .cover .btn {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+    color: darkslateblue;
+    margin-bottom: -0%;
+  }
+}
+
+@media screen
+and (min-device-height : 400px)
+and (max-device-height : 759px) {
+  .cover {
+    padding: 0 1.5rem;
+    margin-top: 0%;
+  }
+  .cover .btn {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+    color: darkslateblue;
+    margin-bottom: -0%;
+  }
+}
+
 
 
 /*

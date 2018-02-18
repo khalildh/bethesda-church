@@ -32,7 +32,8 @@ a:hover {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-
+   padding-top: 3rem;
+   padding-bottom: 3rem;
    height: 100%;
    background-color: #FBF4F4;
    color: darkslateblue;

@@ -128,7 +128,9 @@ a:hover {
 and (max-device-width: 813px)
 and (max-device-height: 576px)
 {
-
+  body {
+    background-color: green;
+  }
 
   .cover {
     padding-top: 0px;

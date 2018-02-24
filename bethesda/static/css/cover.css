@@ -123,58 +123,17 @@ a:hover {
      background-color: darkslateblue;
  }
 
+@media (max-width: 20.5em) {
+  .celebration-text {
+      padding-top: 3.3em;
+  }
+}
 
-/* @media screen
-and (max-device-width: 813px)
-and (max-device-height: 576px)
-{
+
+@media (min-width: 20.5em) and (max-height: 30em) {
   body {
-    background-color: green;
+    background-color: red;
   }
-
-  .cover {
-    padding-top: 0px;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-
-  .celebration-text {
-      padding-top: 3.3em;
-  }
-
-  .learn-btn {
-    padding-top: 12em;
-  }
-
-}
-
-@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)	{
-
-} */
-
-/* @media (max-width: 30em) {
-  .cover {
-    padding-top: 0px;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-
-  .celebration-text {
-      padding-top: 3.3em;
-  }
-
-  .learn-btn {
-    padding-top: 12em;
-  }
-} */
-
-@media (max-height: 30em) {
   .cover {
     padding-top: 0px;
   }
@@ -192,6 +151,8 @@ and (max-device-height: 576px)
     padding-top: 12em;
   }
 }
+
+
 
 
 

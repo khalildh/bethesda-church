@@ -151,6 +151,12 @@ and (max-device-height: 576px)
 
 }
 
+@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)	{
+  body {
+    background: blue;
+  }
+}
+
 
 
 

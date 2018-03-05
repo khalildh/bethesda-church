@@ -1,6 +1,8 @@
 {% extends 'layout.html' %}
 
 {% block content %}
+<div class="container-fluid">
+  <div class="row">
 <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 <main role="main" class="inner cover">
   <div class="celebration-text">
@@ -13,7 +15,10 @@
     <p class="lead">
       <strong><a href="/info" id="link-for-info" class="btn btn-primary btn-outline">Learn more about our upcoming events</a></strong>
     </p>
+    <img class="img-fluid" src="/static/images/flyer.jpg">
   </div>
 </main>
+</div>
+</div>
 </div>
 {% endblock content %}

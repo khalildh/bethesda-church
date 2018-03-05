@@ -123,7 +123,7 @@ a:hover {
      background-color: darkslateblue;
  }
 
-@media (max-width: 20.5em) {
+/* @media (max-width: 20.5em) {
   .celebration-text {
       padding-top: 3.3em;
   }
@@ -147,7 +147,7 @@ a:hover {
   .learn-btn {
     padding-top: 12em;
   }
-}
+} */
 
 
 
